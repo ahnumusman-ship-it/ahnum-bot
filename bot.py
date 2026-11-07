@@ -8,16 +8,10 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes, ConversationHandler
 from datetime import datetime
 
-# ============ CONFIG ============
-TOKEN = "8989439425:AAF-TtBzj9fXoryFkPCNmqT1vqQb7kYIqdw"
-ADMIN_ID = 8712490852
-WHATSAPP_LINK = "https://wa.me/message/XS4F7ZQ3IR2CO1"
-TELEGRAM_SUPPORT = "@ahnumbot"
-INVITE_BONUS_NAIRA = 100
-MIN_WITHDRAW_NAIRA = 200
-MIN_WITHDRAW_TON = 0.1
-DB_FILE = "db.json"
-# ==============================
+TOKEN = os.getenv("8989439425:AAH8dRkFg2dszmG1ToJh4szdiMT0PS1-ScQ")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8712490852"))
+WHATSAPP_LINK = os.getenv("WHATSAPP_LINK", "https://wa.me/message/XS4F7ZQ3IR2CO1")
+TELEGRAM_SUPPORT = os.getenv("TELEGRAM_SUPPORT", "@ahnumbot")
 
 WALLET_TYPE, CRYPTO_TON, NAIRA_TYPE, NAIRA_NAME, NAIRA_ACC, TASK_SUBMIT_UID, TASK_SUBMIT_PHOTO, WITHDRAW_AMOUNT, WITHDRAW_METHOD = range(9)
 
