@@ -9,10 +9,10 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 from datetime import datetime
 
 # ============ CONFIG ============
-TOKEN = "8989439425:AAGEb2gLCYEEtz6B2Dx4U595ZM-IsicW2jY"
+TOKEN = "8989439425:AAF-TtBzj9fXoryFkPCNmqT1vqQb7kYIqdw"
 ADMIN_ID = 8712490852
-WHATSAPP_LINK = "https://wa.me/2348000000000"
-TELEGRAM_SUPPORT = "@YourSupportUsername"
+WHATSAPP_LINK = "https://wa.me/message/XS4F7ZQ3IR2CO1"
+TELEGRAM_SUPPORT = "@ahnumbot"
 INVITE_BONUS_NAIRA = 100
 MIN_WITHDRAW_NAIRA = 200
 MIN_WITHDRAW_TON = 0.1
